@@ -21,6 +21,10 @@
 */
 
 /*
+ * This example demonstrates how to create a forest from a p4est connectivity
+ * and refine it to a certain level. The forest is then adapted, partitioned,
+ * and balanced. The forest is then written to vtk files.
+ *
  * Usage: t8_cmesh_p4est_examples <configuration> <level>
  *        possible configurations:
  *        o unit      Refinement on the unit square.
